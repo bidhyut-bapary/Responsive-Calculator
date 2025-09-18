@@ -18,11 +18,12 @@ function calculate() {
     let expression = display.value.replace('%', '/100');
     let result = eval(expression);
     if (isNaN(result) || !isFinite(result)) {
-      display.value = 'Biswajit';
+      display.value = 'Error';
     } else {
       display.value = result;
     }
   } catch {
-    display.value = 'Biswajit';
+    display.value = 'Error';
   }
 }
+
