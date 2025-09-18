@@ -35,3 +35,8 @@
 git clone https://github.com/bidhyut-bapary/Responsive-Calculator.git
 cd Responsive-Calculator
 open index.html
+
+Responsive-Calculator/
+├── index.html
+├── style.css
+└── script.js
